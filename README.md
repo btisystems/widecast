@@ -1,4 +1,4 @@
-# centos-oracle-java
+# Widecast
 Baseline Dockerfile for EMS deployments
 
 This dockerfile sets up a Centos based container with Oracle's JDK 7 as the baseline Java version.
