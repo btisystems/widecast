@@ -17,3 +17,8 @@ RUN	yum -y update && \
 	rm jdk-${UPDATE_VERSION}-linux-x64.rpm
 
 ENV	JAVA_HOME=/usr/java/jdk${JAVA_VERSION}/
+ENV HOME /root
+
+WORKDIR /root
+
+CMD ["bash"]
